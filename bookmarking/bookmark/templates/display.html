@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>List of bookmarks</title>
+</head>
+<body>
+
+    {% for x in web_add %}
+    <p><h1>{{x.website_address}}</h1></p>
+    <h2>*{{x.description}}</h2>
+    {% endfor %}
+
+</body>
+</html>
